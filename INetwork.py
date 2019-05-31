@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import absolute_import
 
 from imageio import imread 
-from skimage.transform import imresize
+from skimage.transform import resize as imresize
 from scipy.misc import imsave, fromimage, toimage
 
 from scipy.optimize import fmin_l_bfgs_b
