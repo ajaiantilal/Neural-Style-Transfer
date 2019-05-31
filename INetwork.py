@@ -4,7 +4,8 @@ from __future__ import absolute_import
 
 from imageio import imread 
 from skimage.transform import resize as imresize
-from scipy.misc import imsave, fromimage, toimage
+import imageio.imwrite as imsave
+from scipy.misc import fromimage, toimage
 
 from scipy.optimize import fmin_l_bfgs_b
 import numpy as np
