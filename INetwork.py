@@ -2,7 +2,9 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 
-from imageio import imread, imresize, imsave, fromimage, toimage
+from imageio import imread 
+from skimage.transform import imresize
+from scipy.misc import imsave, fromimage, toimage
 
 from scipy.optimize import fmin_l_bfgs_b
 import numpy as np
